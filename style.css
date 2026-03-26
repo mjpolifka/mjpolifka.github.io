@@ -5,15 +5,16 @@
 }
 
 :root {
-  --bg:           #2a2a2a;
-  --nav-bg:       #252525;
-  --text:         #e8e8e8;
-  --text-muted:   #888;
-  --text-dim:     #555;
-  --border:       #3d3d3d;
+  --bg:           #232425;
+  --nav-bg:       #1b1c1d;
+  --text:         #a9a9b3;
+  --text-bright:  #c9c9d3;
+  --text-muted:   #666;
+  --text-dim:     #4a4a55;
+  --border:       #4e4e57;
   --accent:       #b48ead;
-  --card-bg:      #333;
-  --card-hover:   #3a3a3a;
+  --card-bg:      #3b3d42;
+  --card-hover:   #424650;
 }
 
 html, body {
@@ -117,7 +118,7 @@ body {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: var(--text);
+  color: var(--text-bright);
 }
 
 .hero-sub {
@@ -175,6 +176,7 @@ body {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.35rem;
+  color: var(--text-bright);
 }
 
 .project-desc {
