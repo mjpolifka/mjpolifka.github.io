@@ -5,16 +5,16 @@
 }
 
 :root {
-  --bg:           #232425;
-  --nav-bg:       #1b1c1d;
-  --text:         #a9a9b3;
-  --text-bright:  #c9c9d3;
-  --text-muted:   #666;
-  --text-dim:     #4a4a55;
-  --border:       #4e4e57;
-  --accent:       #b48ead;
-  --card-bg:      #3b3d42;
-  --card-hover:   #424650;
+  --bg:           #231f1f;
+  --nav-bg:       #1b1818;
+  --text:         #b3aaaa;
+  --text-bright:  #d0c8c8;
+  --text-muted:   #6b5f5f;
+  --text-dim:     #4a3d3d;
+  --border:       #4e3f3f;
+  --accent:       #b56060;
+  --card-bg:      #3a3030;
+  --card-hover:   #443838;
 }
 
 html, body {
